@@ -178,8 +178,8 @@
   }
 
   .content-main-top h1 {
-    width: 100%;
-    font-size: 1.1rem;
+    width: 90%;
+    font-size: 1.2rem;
   }
 
   .content-main-top h2 {
@@ -250,13 +250,18 @@
     font-size: 0.8rem;
   }
 
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-around;
+  }
+
   .navbar-logo img {
-    width: 60px;
-    margin-left: 0.5rem;
+    margin-left: 1.3rem;
   }
 
   .navbar-titles {
-    gap: 0.6rem;
+    gap: 1rem;
   }
 
   .navbar-titles p {
@@ -264,17 +269,25 @@
   }
 
   .navbar-redes {
-    gap: 0.5rem;
-    margin-right: 0.5rem;
+    display: none;
   }
 
-  .navbar-redes a img {
-    width: 20px;
+  /* FOOTER */
+
+  .footer-redes,
+  .footer-content-left-content {
+    padding-left: 2.3rem;
+  }
+
+  .footer-redes {
+    visibility: visible;
+    height: 30%;
   }
 
   .footer-content-left-content {
-    padding-left: 2rem;
-    padding-top: 3.5rem;
+    width: 100%;
+    height: 70%;
+    padding-top: 0;
   }
 
   .footer-content-left-content h5 {
@@ -371,15 +384,13 @@
 
 @media screen and (max-width: 375px) {
   .content-main-top h1 {
-    width: 100%;
+    width: 85%;
     font-size: 1rem;
-    padding: 7px;
   }
 
   .content-main-top h2 {
     width: 85%;
     font-size: 0.8rem;
-    margin-top: 0.5rem;
   }
 
   .content-main-top p {
@@ -392,25 +403,21 @@
     font-size: 1.6rem;
   }
 
+  /* NAVBAR */
+
   .navbar-logo img {
-    width: 55px;
+    margin-left: 1rem;
   }
 
-  .navbar-titles p {
-    font-size: 12px;
+  .navbar-titles {
+    gap: 0.7rem;
   }
 
-  .navbar-redes {
-    gap: 0.5rem;
-  }
+  /* FOOTER */
 
-  .navbar-redes a img {
-    width: 18px;
-  }
-
+  .footer-redes,
   .footer-content-left-content {
     padding-left: 2rem;
-    padding-top: 3.5rem;
   }
 
   .footer-content-left-content h5 {
