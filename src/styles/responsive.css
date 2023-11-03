@@ -1,0 +1,499 @@
+@media screen and (max-width: 1150px) {
+  .content-main-top h1 {
+    width: 58rem;
+  }
+
+  .content-main-top h2,
+  .content-main-top p,
+  .img-predios {
+    width: 54rem;
+  }
+
+  .section-content-top,
+  .section-content-bottom {
+    width: 54rem;
+  }
+
+  .section-content-top h1,
+  .section-content-bottom h1 {
+    font-size: 2.8rem;
+  }
+
+  .content-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .content-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .content-text p,
+  .content-text ul,
+  .content-text ol {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content-main-top h1 {
+    width: 54rem;
+  }
+
+  .content-main-top h2,
+  .content-main-top p,
+  .img-predios {
+    width: 50rem;
+  }
+
+  .section-content-top,
+  .section-content-bottom {
+    width: 50rem;
+  }
+
+  .section-content-top h1,
+  .section-content-bottom h1 {
+    font-size: 2.6rem;
+  }
+
+  .content-text h2 {
+    font-size: 1.4rem;
+  }
+
+  .content-text h3 {
+    font-size: 1.4rem;
+  }
+
+  .content-text p,
+  .content-text ul,
+  .content-text ol {
+    font-size: 1.2rem;
+  }
+
+  .bottom-div-analise-top,
+  .bottom-div-analise-bottom {
+    flex-direction: column;
+    height: 40rem;
+  }
+
+  .forca,
+  .fraquezas,
+  .oportunidades,
+  .ameacas {
+    width: 30rem;
+  }
+
+  /* PÁGINA SOBRE */
+  .contet-left-sobre,
+  .contet-right-sobre {
+    padding-top: 4rem;
+  }
+
+  .title-sobre {
+    font-size: 36px;
+    margin-bottom: 0.8rem;
+  }
+
+  .text-sobre {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .contet-right-sobre img {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-main-top h1 {
+    width: 85%;
+    font-size: 1.7rem;
+  }
+
+  .content-main-top h2 {
+    width: 85%;
+    font-size: 1.3rem;
+  }
+
+  .content-main-top p {
+    width: 85%;
+    font-size: 1.1rem;
+  }
+
+  .img-predios {
+    width: 80%;
+  }
+
+  .section-content-top,
+  .section-content-bottom {
+    width: 85%;
+  }
+
+  .section-content-top h1,
+  .section-content-bottom h1 {
+    font-size: 2.4rem;
+  }
+
+  .content-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .content-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .content-text p,
+  .content-text ul,
+  .content-text ol {
+    font-size: 1rem;
+  }
+
+  /* PÁGINA SOBRE */
+  .contet-left-sobre {
+    width: 60%;
+  }
+
+  .title-sobre {
+    font-size: 28px;
+    margin-bottom: 0.8rem;
+  }
+
+  .text-sobre {
+    font-size: 15px;
+    width: 88%;
+  }
+
+  .contet-right-sobre {
+    width: 40%;
+  }
+
+  .contet-right-sobre img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-main-top {
+    height: 400px;
+    margin-top: 50px;
+  }
+
+  .content-main-top h1 {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .content-main-top h2 {
+    width: 85%;
+    font-size: 0.9rem;
+  }
+
+  .content-main-top p {
+    width: 85%;
+    font-size: 0.7rem;
+  }
+
+  .img-predios {
+    width: 85%;
+    height: 60%;
+  }
+
+  .section-content-top h1,
+  .section-content-bottom h1 {
+    font-size: 1.8rem;
+  }
+
+  .content-text h2 {
+    font-size: 1rem;
+  }
+
+  .content-text h3 {
+    font-size: 1rem;
+  }
+
+  .content-text p,
+  .content-text ul,
+  .content-text ol {
+    font-size: 0.9rem;
+  }
+
+  .content-bottom-analise-top h2,
+  .content-bottom-analise-bottom h2 {
+    font-size: 1.6rem;
+  }
+
+  .forca > p,
+  .fraquezas > p,
+  .oportunidades > p,
+  .ameacas > p {
+    font-size: 1.5rem;
+  }
+
+  .caixa {
+    width: 100%;
+    height: 9.5rem;
+    padding: 1rem;
+  }
+
+  .forca,
+  .fraquezas,
+  .oportunidades,
+  .ameacas {
+    width: 95%;
+  }
+
+  .input-forca,
+  .input-fraquezas,
+  .input-oportunidades,
+  .input-ameacas {
+    width: 12rem;
+    height: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .navbar-logo img {
+    width: 60px;
+    margin-left: 0.5rem;
+  }
+
+  .navbar-titles {
+    gap: 0.6rem;
+  }
+
+  .navbar-titles p {
+    font-size: 13px;
+  }
+
+  .navbar-redes {
+    gap: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .navbar-redes a img {
+    width: 20px;
+  }
+
+  .footer-content-left-content {
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+  }
+
+  .footer-content-left-content h5 {
+    font-size: 20px;
+  }
+
+  .footer-content-left-content a > p {
+    font-size: 14px;
+  }
+
+  .footer-content-right-content {
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .footer-content-right-content p {
+    font-size: 18px;
+  }
+
+  #email,
+  #name {
+    width: 95%;
+    height: 25px;
+  }
+
+  .addNewletter {
+    width: 85px;
+    height: 30px;
+  }
+
+  .footer-content-right-content2 {
+    padding-right: 1rem;
+    font-size: 7.5px;
+  }
+
+  .input-forca,
+  .input-fraquezas,
+  .input-oportunidades,
+  .input-ameacas {
+    width: 12rem;
+    height: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 4rem;
+    font-size: 0.9rem;
+  }
+
+  .caixa {
+    width: 100%;
+    height: 10rem;
+    padding: 1rem;
+  }
+
+  .item-text {
+    font-size: 0.9rem;
+  }
+
+  /* PÁGINA SOBRE */
+  .section {
+    height: 100%;
+  }
+
+  .all-content {
+    flex-direction: column-reverse;
+  }
+
+  .contet-left-sobre {
+    width: 100%;
+    margin-block: 2rem 1rem;
+    padding-top: 0;
+  }
+
+  .title-sobre {
+    font-size: 25px;
+    margin-bottom: 0.8rem;
+  }
+
+  .text-sobre {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px;
+  }
+
+  .contet-right-sobre {
+    width: 100%;
+  }
+
+  .contet-right-sobre img {
+    width: 68%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-main-top h1 {
+    width: 100%;
+    font-size: 1rem;
+    padding: 7px;
+  }
+
+  .content-main-top h2 {
+    width: 85%;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .content-main-top p {
+    width: 85%;
+    font-size: 0.6rem;
+  }
+
+  .section-content-top h1,
+  .section-content-bottom h1 {
+    font-size: 1.6rem;
+  }
+
+  .navbar-logo img {
+    width: 55px;
+  }
+
+  .navbar-titles p {
+    font-size: 12px;
+  }
+
+  .navbar-redes {
+    gap: 0.5rem;
+  }
+
+  .navbar-redes a img {
+    width: 18px;
+  }
+
+  .footer-content-left-content {
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+  }
+
+  .footer-content-left-content h5 {
+    font-size: 18px;
+  }
+
+  .footer-content-left-content a > p {
+    font-size: 12px;
+  }
+
+  .footer-content-right-content {
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .footer-content-right-content p {
+    font-size: 16px;
+  }
+
+  #email,
+  #name {
+    width: 95%;
+    height: 25px;
+  }
+
+  .addNewletter {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .footer-content-right-content2 {
+    padding-right: 1rem;
+    font-size: 7px;
+  }
+
+  .input-forca,
+  .input-fraquezas,
+  .input-oportunidades,
+  .input-ameacas {
+    width: 12rem;
+    height: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    width: 3rem;
+    font-size: 0.8rem;
+  }
+
+  .caixa {
+    width: 100%;
+    height: 10rem;
+    padding: 1rem;
+  }
+
+  .item-text {
+    font-size: 0.8rem;
+  }
+
+  /* PÁGINA SOBRE */
+  .contet-left-sobre {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-top: 0;
+  }
+
+  .title-sobre {
+    font-size: 23px;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-sobre {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 10px;
+  }
+
+  .contet-right-sobre {
+    width: 100%;
+  }
+
+  .contet-right-sobre img {
+    width: 68%;
+  }
+}
