@@ -351,6 +351,10 @@
     font-size: 0.9rem;
   }
 
+  .back-top a {
+    font-size: 1.7rem;
+  }
+
   /* PÁGINA SOBRE */
   .section {
     height: 100%;
