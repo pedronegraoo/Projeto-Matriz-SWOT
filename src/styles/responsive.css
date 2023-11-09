@@ -183,13 +183,13 @@
   }
 
   .content-main-top h2 {
-    width: 85%;
-    font-size: 0.9rem;
+    width: 80%;
+    font-size: 0.85rem;
   }
 
   .content-main-top p {
     width: 85%;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 
   .img-predios {
@@ -392,13 +392,13 @@
 
 @media screen and (max-width: 375px) {
   .content-main-top h1 {
-    width: 85%;
+    width: 88%;
     font-size: 1rem;
   }
 
   .content-main-top h2 {
-    width: 85%;
-    font-size: 0.8rem;
+    width: 80%;
+    font-size: 0.75rem;
   }
 
   .content-main-top p {
