@@ -303,6 +303,14 @@
 
   /* FOOTER */
 
+  .footer-content-left {
+    width: 45%;
+  }
+
+  .footer-content-right {
+    width: 55%;
+  }
+
   .footer-redes,
   .footer-content-left-content {
     padding-left: 2.3rem;
@@ -463,6 +471,14 @@
 
   /* FOOTER */
 
+  .footer-content-left {
+    width: 45%;
+  }
+
+  .footer-content-right {
+    width: 55%;
+  }
+
   .footer-redes,
   .footer-content-left-content {
     padding-left: 2rem;
@@ -506,7 +522,7 @@
   }
 
   .footer-content-right-content2 {
-    padding-right: 1rem;
+    padding-right: 2rem;
     font-size: 7px;
   }
 
