@@ -193,7 +193,7 @@ a > p {
   color: var(--color-white);
 }
 
-.addNewletter:active {
+.btn-addNewletter:active {
   opacity: 0.8;
 }
 

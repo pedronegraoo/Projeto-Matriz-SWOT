@@ -1,4 +1,6 @@
 @media screen and (max-width: 1150px) {
+  /* MAIN */
+
   .content-main-top h1 {
     width: 58rem;
   }
@@ -8,6 +10,8 @@
   .img-predios {
     width: 54rem;
   }
+
+  /* SECTION */
 
   .section-content-top,
   .section-content-bottom {
@@ -35,6 +39,8 @@
 }
 
 @media screen and (max-width: 1024px) {
+  /* MAIN */
+
   .content-main-top h1 {
     width: 54rem;
   }
@@ -44,6 +50,8 @@
   .img-predios {
     width: 50rem;
   }
+
+  /* SECTION */
 
   .section-content-top,
   .section-content-bottom {
@@ -104,6 +112,8 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* MAIN */
+
   .content-main-top h1 {
     width: 85%;
     font-size: 1.7rem;
@@ -122,6 +132,8 @@
   .img-predios {
     width: 80%;
   }
+
+  /* SECTION */
 
   .section-content-top,
   .section-content-bottom {
@@ -340,7 +352,8 @@
   }
 
   .footer-content-right-content2 {
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
+    padding-right: 2rem;
     font-size: 7.5px;
   }
 
