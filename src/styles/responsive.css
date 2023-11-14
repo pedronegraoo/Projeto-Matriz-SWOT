@@ -172,6 +172,30 @@
 }
 
 @media screen and (max-width: 425px) {
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar-logo img {
+    margin-left: 1.3rem;
+  }
+
+  .navbar-titles {
+    gap: 1rem;
+  }
+
+  .navbar-titles p {
+    font-size: 13px;
+  }
+
+  .navbar-redes {
+    display: none;
+  }
+
+  /* MAIN */
+
   .content-main-top {
     height: 400px;
     margin-top: 50px;
@@ -196,6 +220,8 @@
     width: 85%;
     height: 60%;
   }
+
+  /* SECTION */
 
   .section-content-top h1,
   .section-content-bottom h1 {
@@ -230,7 +256,7 @@
 
   .caixa {
     width: 100%;
-    height: 9.5rem;
+    height: 10rem;
     padding: 1rem;
   }
 
@@ -250,26 +276,17 @@
     font-size: 0.8rem;
   }
 
-  /* NAVBAR */
-
-  .navbar {
-    justify-content: space-around;
+  .btn {
+    width: 4rem;
+    font-size: 0.9rem;
   }
 
-  .navbar-logo img {
-    margin-left: 1.3rem;
+  .item-text {
+    font-size: 0.9rem;
   }
 
-  .navbar-titles {
-    gap: 1rem;
-  }
-
-  .navbar-titles p {
-    font-size: 13px;
-  }
-
-  .navbar-redes {
-    display: none;
+  .back-top a {
+    font-size: 1.7rem;
   }
 
   /* FOOTER */
@@ -281,17 +298,16 @@
 
   .footer-redes {
     visibility: visible;
-    height: 30%;
   }
 
-  .icon-redes i {
-    font-size: 1.1rem;
+  .icon-redes-footer i {
+    font-size: 1rem;
   }
 
   .footer-content-left-content {
     width: 100%;
     height: 70%;
-    padding-top: 0;
+    padding-top: 1rem;
   }
 
   .footer-content-left-content h5 {
@@ -308,7 +324,7 @@
   }
 
   .footer-content-right-content p {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   #email,
@@ -317,42 +333,15 @@
     height: 25px;
   }
 
-  .addNewletter {
+  .btn-addNewletter {
     width: 85px;
     height: 30px;
+    font-size: 10px;
   }
 
   .footer-content-right-content2 {
     padding-right: 1rem;
     font-size: 7.5px;
-  }
-
-  .input-forca,
-  .input-fraquezas,
-  .input-oportunidades,
-  .input-ameacas {
-    width: 12rem;
-    height: 0.8rem;
-    font-size: 0.9rem;
-  }
-
-  .btn {
-    width: 4rem;
-    font-size: 0.9rem;
-  }
-
-  .caixa {
-    width: 100%;
-    height: 10rem;
-    padding: 1rem;
-  }
-
-  .item-text {
-    font-size: 0.9rem;
-  }
-
-  .back-top a {
-    font-size: 1.7rem;
   }
 
   /* PÁGINA SOBRE */
@@ -372,11 +361,11 @@
 
   .title-sobre {
     font-size: 25px;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0;
   }
 
   .text-sobre {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
     padding: 15px;
   }
@@ -391,6 +380,17 @@
 }
 
 @media screen and (max-width: 375px) {
+  /* NAVBAR */
+
+  .navbar-logo img {
+    margin-left: 1rem;
+  }
+
+  .navbar-titles {
+    gap: 0.7rem;
+  }
+
+  /* MAIN */
   .content-main-top h1 {
     width: 88%;
     font-size: 1.1rem;
@@ -406,60 +406,18 @@
     font-size: 0.7rem;
   }
 
+  /* SECTION */
+
+  .forca,
+  .fraquezas,
+  .oportunidades,
+  .ameacas {
+    width: 95%;
+  }
+
   .section-content-top h1,
   .section-content-bottom h1 {
     font-size: 1.6rem;
-  }
-
-  /* NAVBAR */
-
-  .navbar-logo img {
-    margin-left: 1rem;
-  }
-
-  .navbar-titles {
-    gap: 0.7rem;
-  }
-
-  /* FOOTER */
-
-  .footer-redes,
-  .footer-content-left-content {
-    padding-left: 2rem;
-  }
-
-  .footer-content-left-content h5 {
-    font-size: 18px;
-  }
-
-  .footer-content-left-content a > p {
-    font-size: 12px;
-  }
-
-  .footer-content-right-content {
-    padding-right: 1rem;
-    padding-top: 1.5rem;
-  }
-
-  .footer-content-right-content p {
-    font-size: 16px;
-  }
-
-  #email,
-  #name {
-    width: 95%;
-    height: 25px;
-  }
-
-  .addNewletter {
-    width: 80px;
-    height: 30px;
-    font-size: 10px;
-  }
-
-  .footer-content-right-content2 {
-    padding-right: 1rem;
-    font-size: 7px;
   }
 
   .input-forca,
@@ -486,6 +444,59 @@
     font-size: 0.8rem;
   }
 
+  .back-top a {
+    font-size: 1.7rem;
+  }
+
+  /* FOOTER */
+
+  .footer-redes,
+  .footer-content-left-content {
+    padding-left: 2rem;
+  }
+
+  .footer-redes {
+    visibility: visible;
+  }
+
+  .icon-redes-footer i {
+    font-size: 1rem;
+  }
+
+  .footer-content-left-content h5 {
+    font-size: 18px;
+  }
+
+  .footer-content-left-content a > p {
+    font-size: 12px;
+  }
+
+  .footer-content-right-content {
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .footer-content-right-content p {
+    font-size: 18px;
+  }
+
+  #email,
+  #name {
+    width: 95%;
+    height: 25px;
+  }
+
+  .btn-addNewletter {
+    width: 80px;
+    height: 30px;
+    font-size: 9px;
+  }
+
+  .footer-content-right-content2 {
+    padding-right: 1rem;
+    font-size: 7px;
+  }
+
   /* PÁGINA SOBRE */
   .content-left-sobre {
     width: 100%;
@@ -495,11 +506,11 @@
 
   .title-sobre {
     font-size: 23px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .text-sobre {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
     padding: 10px;
   }
