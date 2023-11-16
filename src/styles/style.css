@@ -77,6 +77,8 @@
   color: var(--color-ameacas);
 }
 
+/* SECTION TOP */
+
 .section {
   height: 100%;
   display: flex;
@@ -102,6 +104,10 @@
   color: var(--color-purple-dark);
   text-align: center;
   text-shadow: 1px 1px 2px #2a0046;
+}
+
+.content-text {
+  text-align: justify;
 }
 
 .content-text,
@@ -138,6 +144,8 @@
 .content-text ol {
   margin-left: 2.7rem;
 }
+
+/* SECTION BOTTOM */
 
 .section-content-bottom {
   width: 68rem;
