@@ -135,6 +135,10 @@
 
   /* SECTION */
 
+  .section {
+    margin-bottom: 4rem;
+  }
+
   .section-content-top,
   .section-content-bottom {
     width: 85%;
@@ -299,6 +303,12 @@
 
   .back-top a {
     font-size: 1.7rem;
+  }
+
+  /* BACK TO TOP */
+
+  .back-top a i {
+    font-size: 2rem;
   }
 
   /* FOOTER */
